@@ -1,0 +1,92 @@
+#introCarousel,
+    .carousel-inner,
+    .carousel-item,
+    .carousel-item.active {
+      height: 100vh;
+    }
+.navbar-brand{
+margin:0px 20px;
+font-size:150%;
+}
+.container {
+  flex-wrap:wrap;
+}
+
+    .carousel-item:nth-child(1) {
+      background-image: url('IdahoPic.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+    }
+    .carousel-item:nth-child(2) {
+      background-image: url('IdahoHis.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+    }
+    .carousel-item:nth-child(3) {
+      background-image: url('IdahoHis.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+    }
+    .btn-primary
+    {
+      color:white;
+      background-image: linear-gradient(to right, #8d30ab 0%, #fcbde8 81%, #fcf1bd 100%);
+      border-radius:50px;
+      border:1px solid black;
+      box-shadow: 3px 3px 0px black;
+      transition: all 1s
+    }
+    .btn-primary:hover {
+      color:black;
+      background-color: white;
+      border-radius:50px;
+      border:1px solid black;
+      transform: scale(1.1);
+    }
+    .mb-5 {
+      text-align: center;
+    }
+
+    a {
+    color:#585858;
+    text-decoration:None; 
+    transition: all 1s;
+    }
+    .carousel-item active {
+
+    }
+
+.bg-yellow{
+background-color: #ffe57f;
+}
+
+.bg-blue{
+background-color: #669bbc;
+}
+
+.display-7 {
+color: black;
+text-align:center;
+width:100%;
+background-color:white;
+border:1px solid black;
+padding: 5px 5px;
+
+}
+
+    
+    /* Height for devices larger than 576px */
+    @media (min-width: 992px) {
+      #introCarousel {
+        margin-top: -58.59px;
+      }
+      #introCarousel,
+      .carousel-inner,
+      .carousel-item,
+      .carousel-item.active {
+        height: 50vh;
+      }
+    }
